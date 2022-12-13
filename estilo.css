@@ -1,0 +1,75 @@
+body{
+    background-image: url("imagenes/WhatsApp Image 2022-12-12 at 11.26.01 AM.jpeg");
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color:blue;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    font-size: 60px;
+}
+form{color: red;
+	width: 300px;
+	padding: 16px;
+	border-radius: 10px;
+	margin: auto;
+	font-family: Broadway;
+	background-color: #40E0D0;
+
+}
+form label{
+	width: 72px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+form input[type="text"],form input[type="email"]{
+	width: 180px;
+	padding: 3px 10px;
+	border:3px solid #FFA500;
+	border-radius: 3px;
+	background-color: #800080;
+	margin: 8px;
+	display: inline-block;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: rgb(202, 248, 227);
+}
+.navegacion ul{
+    list-style: none;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(248, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: aqua;
+    color: red;
+    transition: .3s;
+
+}
+
+.menu li:hover .submenu{
+   
+    display: block;
+}
